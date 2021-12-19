@@ -1,0 +1,31 @@
+@media (max-width: 1199px)
+{
+    .nav-link
+    {
+        font-size: 20px;
+    }
+
+    .nav-item
+    {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 575px)
+{
+    .container-logo
+    {
+        font-size: 30px;
+    }
+
+    .nav-link
+    {
+        margin: 8px 0;
+    }
+
+    .footer .container-logo
+    {
+        display: block;
+        margin-bottom: 15px;
+    }
+}
