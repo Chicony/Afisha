@@ -33,4 +33,19 @@
     {
         width: 100%;
     }
+
+    .department-image
+    {
+        height: 200px;
+    }
+
+    .department-title
+    {
+        font-size: 27px;
+    }
+
+    .department-description
+    {
+        font-size: 16px;
+    }
 }
