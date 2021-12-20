@@ -145,7 +145,8 @@ textarea
     transition: width 0.5s;
 }
 
-.phone-link
+.phone-link,
+.email-link
 {
     color: #fff;
     text-decoration: none;
@@ -153,7 +154,8 @@ textarea
     font-weight: 900;
 }
 
-.phone-link:hover
+.phone-link:hover,
+.email-link:hover
 {
     color:#FFD700;
 }
@@ -321,12 +323,13 @@ textarea
 
 .section-map
 {
-    margin-top: 0;
-    background-image: none;
     padding: 0;
     height: 400px;
-    box-shadow: none;
-    z-index: 0;
+}
+
+.contacts-map
+{
+    height: 300px;
 }
 
 .footer
@@ -358,4 +361,35 @@ textarea
     max-width: 100%;
     border-radius: 10px;
     height: 300px;
+}
+
+.contacts-title
+{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.contacts-description
+{
+    font-size: 18px;
+    margin: 6px 0;
+}
+
+.social-networks
+{
+    font-size: 36px;
+}
+
+.social-networks .link-item
+{
+    text-decoration: none;
+    font-size: 36px;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.social-networks .link-item:hover
+{
+    color: #FFD700;
 }

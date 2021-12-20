@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Главная</title>
+    <title>О нас</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css">
@@ -12,7 +12,7 @@
       .navbar-toggler-icon {
           background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='rgb(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");;
       }
-  </style>
+    </style>  
   </head>
   <body>
     <header class="header sticky-top">
@@ -50,34 +50,45 @@
         </div>
       </div>
     </header>
-    <div class="banner-background"></div>
+    <div class="banner-background little">
+      <h1 class="banner-title">Контакты</h1>
+    </div>
     <section class="section dark">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-xl-7">
-            <h1 class="about-title">ООО "Афиша"</h1>
-            <h2 class="about-subtitle">Разработка компьютерного программного обеспечения</h2>
-            <ul class="about-list">
-              <li class="list-item"><i class="fas fa-check"></i>Разработка компьютерного программного обеспечения.</li>
-              <li class="list-item"><i class="fas fa-check"></i>Создание мобильных приложений.</li>
-              <li class="list-item"><i class="fas fa-check"></i>Услуги по доступу в интернет.</li>
-              <li class="list-item"><i class="fas fa-check"></i>Создание сайтов и разработка ПО.</li>
-              <li class="list-item"><i class="fas fa-check"></i>Обучение и сертификация.</li>
-              <li class="list-item"><i class="fas fa-check"></i>Облачные и виртуальные услуги.</li>
-            </ul>
-            <p></p>
+          <div class="col-lg-5">
+            <div class="contacts-title">Наш офис:</div>
+            <div class="contacts-description">424006, г. Йошкар-Ола ул. Панфилова д. 17 к. 530</div>
+            <div class="contacts-description">
+              Тел.: 
+              <a href="tel:+78005553535" class="phone-link"> +7 (800) 555-35-35</a>
+            </div>
+            <div class="contacts-description">
+              Email:
+              <a href="mailto:info@gmail.com" class="email-link">info@gmail.com</a>
+            </div>
+            <div class="contacts-description">
+              ИНН 5512856341, КПП 856932102
+            </div>
+            <div class="contacts-description social-networks">
+              <a class="link-item" href="https://vk.com/volgatech" target="_blank">
+                <i class="fab fa-vk"></i>
+              </a>
+              <a class="link-item" href="https://www.facebook.com/volgatech" target="_blank">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+              <a class="link-item" href="https://www.instagram.com/volgatech/" target="_blank">
+                <i class="fab fa-instagram-square"></i>
+              </a>
+              <a class="link-item" href="https://www.youtube.com/channel/UCX06I-Fhz0BbPhnYFzssttQ" target="_blank">
+                <i class="fab fa-youtube-square"></i>
+              </a>
+            </div>
           </div>
-          <div class="col-lg-6 col-xl-5">
-            <img class="about-image" src="assets/image/about.jpg" alt="about">
-          </div>
-          <div class="col-12 my-3">
-            <p>
-              Информационные технологии ХХI века призваны решать глобальные комплексные проблемы 
-              управления в области государственной политики, социальной сферы, 
-              совершенствовать организацию производственных процессов и структур бизнеса. 
-              Компания ООО «Афиша» видит своё место в этом процессе в качестве профессионального консультанта, 
-              обладающего всеми возможностями и ресурсами для решения проблем и задач любого уровня сложности.
-            </p>
+          <div class="col-lg-7 contacts-map">
+            <div class="map-container" id="mapContainer" 
+                data-map='<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A22f15b47fd3b9a2fbbf50a41b8e27ce318e11aff57823849dddacacec96c1ca5&amp;width=100%25&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>'>
+            </div>
           </div>
         </div>
       </div>
@@ -119,12 +130,7 @@
         </form>
       </div>
     </section>
-    <div class="section section-map">
-      <div class="map-container" id="mapContainer" 
-           data-map='<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A22f15b47fd3b9a2fbbf50a41b8e27ce318e11aff57823849dddacacec96c1ca5&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>'>
-        
-      </div>
-    </div>
+    <section class="section light"></section>
     <footer class="footer">
       <div class="container">
         <div class="row justify-content-between text-center text-sm-start">
